@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>Space Makers</header>
+    <div class="container">
+        <div class="furniture" onclick="showFeatures('sofa')">
+            <img src="sofa.jpeg" alt="Sofa">
+            <h3>Sofa</h3>
+        </div>
+        <div class="furniture" onclick="showFeatures('table')">
+            <img src="table.jpeg" alt="Table">
+            <h3>Table</h3>
+        </div>
+        <div class="furniture" onclick="showFeatures('chair')">
+            <img src="chair.jpeg" alt="Chair">
+            <h3>Chair</h3>
+        </div>
+    </div>
+    <div class="features" id="features">
+        <h2 id="title"></h2>
+        <p id="description"></p>
+    </div>
+    <footer>&copy; 2025 Furniture Showcase. All Rights Reserved.</footer>
+    <script src="script.js"></script>
+</body>
+</html>
